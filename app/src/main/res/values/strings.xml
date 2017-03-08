@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tic Tac Nyan</string>
+    <string name="novembergave">\u00A9 novembergave.com</string>
+    <string name="url">http://www.novembergave.com/</string>
+    <string name="you_win">You win!</string>
+    <string name="draw">It\'s a Draw!</string>
+    <string name="lose">You lose!</string>
+</resources>

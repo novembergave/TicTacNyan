@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tiledbg">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="48dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:minHeight="84dp">
+
+            <ImageView
+                android:id="@+id/one_one"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/border"
+                android:scaleType="fitCenter"
+                tools:src="@drawable/nyanone" />
+
+            <ImageView
+                android:id="@+id/one_two"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/border"
+                android:scaleType="fitCenter" />
+
+            <ImageView
+                android:id="@+id/one_three"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/border"
+                android:scaleType="fitCenter"
+                tools:src="@drawable/nyanone" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:minHeight="84dp">
+
+            <ImageView
+                android:id="@+id/two_one"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/border"
+                android:scaleType="fitCenter"
+                tools:src="@drawable/nyantwo" />
+
+            <ImageView
+                android:id="@+id/two_two"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/border"
+                android:scaleType="fitCenter"
+                tools:src="@drawable/nyanone" />
+
+            <ImageView
+                android:id="@+id/two_three"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/border"
+                android:scaleType="fitCenter" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:minHeight="84dp">
+
+            <ImageView
+                android:id="@+id/three_one"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/border"
+                android:scaleType="fitCenter"
+                tools:src="@drawable/nyanone" />
+
+            <ImageView
+                android:id="@+id/three_two"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/border"
+                android:scaleType="fitCenter" />
+
+            <ImageView
+                android:id="@+id/three_three"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/border"
+                android:scaleType="fitCenter"
+                tools:src="@drawable/nyanone" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="24dp">
+
+            <TextView
+                android:id="@+id/title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/novembergave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/novembergave" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/result_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@android:color/white"
+        android:padding="80dp"
+        android:textSize="24sp"
+        android:visibility="gone" />
+
+
+</RelativeLayout>
